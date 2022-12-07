@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="autosize">
+        <item>10sp</item>
+        <item>20sp</item>
+
+
+    </array>
+
+
+
+
+    <string-array name="fire_cases">
+        <item>Taxing</item>
+        <item>TAKE-OFF RUN</item>
+        <item>AFTER LEFT-OFF</item>
+        <item>IN FLIGHT</item>
+    </string-array>
+    <string-array name="rp_cases">
+        <item>REFUELING POD FIRE</item>
+        <item>REFUELING POD FAILURE</item>
+        <item>EMERGENCY SITUATION AT FUEL TRANSFER TO ANOTHER AIRCRAFT</item>
+        <item>ABNORMAL IN-FLIGHT REFUELING MODE</item>
+    </string-array>
+    <string-array name="lg_cases">
+        <item>BLOWN MLG TIRE</item>
+        <item>FAILURE OF ONE MLG TO EXTEND</item>
+        <item>FAILURE OF NLG TO EXTEND</item>
+        <item>LG EMERGENCY EXTENSION</item>
+    </string-array>
+    <string-array name="lg_case1_cases">
+        <item>AT TAKE-OFF BEFORE NLG WHEELS LIFTING</item>
+        <item>AFTER NLG WHEELS LIFTING </item>
+        <item>DURING LANDING RUN</item>
+
+    </string-array>
+    <string-array name="life_support_cases">
+        <item>COCKPIT DEPRESSURIZATION AT ALTITUDES ABOVE 39350 FT</item>
+        <item>FAILURE OF AUTOMATIC CONTROL SYSTEM OF COCKPIT TEMPERATURE </item>
+        <item>CONDENSATION OF ICING ON THE COCKPIT CANOPY GLASS</item>
+        <item>SMOKE IN THE COCKPIT </item>
+        <item>FOG IN THE COCKPIT </item>
+        <item>FAILURE OF OXYGEN EQUIPMENT</item>
+    </string-array>
+
+    <string-array name="dc_cases">
+        <item>DC GENERATOR FAILURE</item>
+        <item>BOTH DC GENERATORS FAILURE</item>
+        <item>FAILURE OF TWO DC GENERATORS AND RECTIFIER</item>
+
+    </string-array>
+    <string-array name="hyd_cases">
+        <item>BOOSTER HYDRAULIC SYSTEM FAILURE</item>
+        <item>MAIN HYDRAULIC SYSTEM FAILURE</item>
+        <item>BOTH HYDRAULIC SYSTEMS FAILURE</item>
+
+    </string-array>
+    <string-array name="pnum_cases">
+        <item>MAIN PNEUMATIC SYSTEM FAILURE</item>
+        <item>EMERGENCY PNEUMATIC SYSTEM FAILURE</item>
+        <item>BOTH PNEUMATIC SYSTEMS FAILURE</item>
+
+    </string-array>
+    <string-array name="fuel_cases">
+        <item>FAILURE OF FUEL  USE SEQUENCE IN FLIGHT</item>
+        <item>NO VENTRAL TANK CONSUMPTION </item>
+        <item>NO WDT CONSUMPTION</item>
+        <item>FAILURE OF EMG JETT TERMINATION OF ONE ENGINE</item>
+        <item>FAILURE OF EMG JETT TERMINATION OF BOTH ENGINES</item>
+    </string-array>
+    <string-array name="eject_cases">
+        <item>Before EJECTION</item>
+        <item>AFTER DEPLOYMENT OF PARACHUTE CANOPY</item>
+        <item>BEFORE LANDING</item>
+        <item>DESCEND ON WATER</item>
+        <item>WATER LANDING</item>
+        <item>UNINFLATED LIFE BELT FLOAT </item>
+
+    </string-array>
+    <string-array name="nav_cases">
+        <item>AIR DATA SYSTEM FAILURE</item>
+        <item>INS1 FAILURE</item>
+        <item>INS2 FAILURE</item>
+        <item>BOTH INS FAILURE</item>
+        <item>DEGRADATION OF INS ACCURACY</item>
+        <item>"CYCLING" OF INS ALGORITHMS</item>
+        <item>VIM-95 FAILURE AT LANDING</item>
+        <item>PITOT-STATIC TUBE FAILURE</item>
+        <item>MFD FAILURE</item>
+
+
+    </string-array>
+    <string-array name="radio_cases">
+        <item>COM1 FAILURE</item>
+        <item>COM2 FAILYRE</item>
+        <item>TWO RADIO FAILURE</item>
+        <item>HF RADIO FAILURE</item>
+        <item>RCP FAILURE</item>
+        <item>NO DATA EXCHANGE VIA MUX BUS BETWEEN BKS-29E AND MC</item>
+        <item>FAILURE OF SDC OF DIGITAL INTEGRATED COMMUNICATION MODULE </item>
+        <item>FAILURE OF INTERNAL COMMUNICATION SYSTEM </item>
+        <item>VWS FAILURE</item>
+        <item>IFF INTERROGATOR FAIL </item>
+        <item>IFF TRANSPONDER FAIL </item>
+
+
+    </string-array>
+    <string-array name="fbw_cases">
+        <item>FAILURE OF ONE SUB-CHANNEL OF FBW</item>
+        <item>FAILURE OF TWO SUB-CHANNELS OF FBW</item>
+        <item>TOTAL FAILURE OF 2 AOA SENSORS</item>
+        <item>FAILURE OF CONTROL STICK AND (OR) PEDALS MOVEMENT SENSORS</item>
+        <item>FAILURE OF FBW COMPUTERS</item>
+        <item>FAILURE OF SERVO DRIVE OF ONE HORIZONTAL STABILIZER</item>
+        <item>FAILURE OF SERVO DRIVE OF ONE OF THE RUDDERS</item>
+        <item>FAILURE OF SERVO DRIVE OF ONE AILERON</item>
+        <item>FAILURE OF MAIN MODE IN ONE OF FBW PRESSURE CONTROL CHANNELS</item>
+        <item>FAILURE OF FBW PRESSURE SENSORS</item>
+        <item>FAILURE OF AUTOPILOT</item>
+        <item>AUTOTHROTTLE FAILURE</item>
+        <item>FAILURE OF SIDESLIP ANGLE SENSORS</item>
+        <item>FAILURE OF FRONT SIDESLIP ANGLE SENSOR</item>
+        <item>FAILURE OF REAR SIDESLIP ANGLE SENSOR</item>
+        <item>FAILURE OF ONE AOA SENSOR </item>
+        <item>FAILURE OF ONE AOA SENSOR REDUNDANCY</item>
+        <item>FAILURE OF 2 CHANNELS OF QUAD-REDUNDANT FBW COMPUTERS</item>
+        <item>FAILURE OF 2 SUB-CHANNELS OF AUTOPILOT COMPUTERS</item>
+        <item>FAILURE OF FBW COMMUNICATION WITH AIMING AND NAVIGATION SYSTEM</item>
+        <item>FAILURE OF TWO REDUNDANT CHANNELS OF THE AIRCRAFT CONTROL SURFACES DRIVES</item>
+        <item>FAILURE OF ONE ENGINE AUTO THROTTLE</item>
+        <item>FAILURE OF SENSORS OF ONE OF THE TRIMMERS</item>
+        <item>FAILURE OF TWO ENGINES AUTO THROTTLE</item>
+        <item>FAILURE OF ONE OR TWO REDUNDANT CHANNELS OF AIRBRAKE POSITION SENSOR</item>
+        <item>FAILURE OF AIRBRAKE POSITION SENSOR</item>
+        <item>FAILURE OF TRIM ACTUATORS (DURING PRE-FLIGHT TEST)</item>
+        <item>FAILURE OF POSITION SENSORS OF LH OR RH SLATS SECTION</item>
+        <item>FAILURE OF LH AND RH SLATS SECTIONS CONTROL</item>
+        <item>FAILURE OF POSITION SENSOR OF ONE OF THE FLAPS </item>
+        <item>AUTOPILOT MODES FAILURE FAILURE OF FLIGHT DIRECTOR CONTROL</item>
+        <item>FAILURE OF AUTOPILOT</item>
+        <item>FAILURE OF LSS</item>
+        <item>FBW SETTING TO OWN LIMITATIONS (MODES LIMITER FROM FBW)</item>
+
+
+    </string-array>
+
+    <string-array name="eng_cases">
+        <item>SINGLE ENGINE FAILURE</item>
+        <item>POWER PLANT SURGE</item>
+        <item>FAILURE OF BARK-42 ANTI-SURGE PROTECTION CHANNEL</item>
+        <item>SUDDEN FLAMEOUT OF BOTH ENGINES IN FLIGHT</item>
+        <item>ENGINES AIR START</item>
+        <item>FAILURE OF ENGINE OIL SYSTEM</item>
+        <item>FAILURE OF ELECTRONICS OF ENGINE AUTOMATIC CONTROL SYSTEM</item>
+        <item>FAILURE OF BARK-42 LIMITATION AND ADJUSTMENT PROGRAMS.FUEL FLOW, NOZZLE THROAT AREA</item>
+        <item>AFTERBURNING FAILURE</item>
+        <item>FUEL BOOST PUMP FAILURE</item>
+        <item>INCREASE OF ENGINE RPM, FUEL PRESSURE</item>
+
+        <item>INCREASE OF DIFFERENTIAL PRESSURE AT ENGINE FUEL FILTER</item>
+
+        <item>INCREASE OF ENGINE VIBRATIONS</item>
+        <item>ENGINE OVERHEAT</item>
+        <item>TOTAL FAILURE OF AAGB (BOTH REDUCTION GEARS)</item>
+        <item>FAILURE OF ONE AAGB REDUCTION GEAR</item>
+        <item>FAILURE OF AIR INTAKES GOVERNOR</item>
+        <item>LH (RH) AIR INTAKE FAILURE</item>
+
+    </string-array>
+    <string-array name="eng_case1_cases">
+        <item> DURING TAKE-OFF RUN</item>
+        <item> AFTER LIFT-OFF</item>
+        <item> IN FLIGHT</item>
+
+
+    </string-array>
+
+    <string-array name="ac_cases">
+        <item>AC INTEGRATED GENERATOR FAILURE</item>
+        <item>BOTH AC INTEGRATED GENERATORS FAILURE</item>
+
+
+    </string-array>
+    <string-array name="cj_cases">
+        <item> BEFORE CANOPY JETTISON</item>
+        <item>JETTISON</item>
+
+
+    </string-array>
+    <string-array name="nav_case9_cases">
+        <item>MFD FAILURE</item>
+        <item>WITH ONE SERVICEABLE ENGINE</item>
+        <item>AT THREE MFD FAILURE</item>
+
+
+    </string-array>
+
+    <string-array name="misc_cases">
+        <item>SPATIAL DISORIENTATION</item>
+
+
+
+    </string-array>
+    <string-array name="fire_taxing">
+        <item><![CDATA[ENG & AAGB]]></item>
+    </string-array>
+    <string-array name="fire">
+        <item>ENG</item>
+        <item>AAGB</item>
+    </string-array>
+
+</resources>

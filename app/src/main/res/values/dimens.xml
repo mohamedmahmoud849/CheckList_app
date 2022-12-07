@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size">20dp</dimen>
+    <dimen name="toolbar_height">60dp</dimen>
+    <dimen name="toolbar_text_size">30sp</dimen>
+    <dimen name="nav_view_width">300dp</dimen>
+    <dimen name="special_emercases_size">10sp</dimen>
+    <dimen name="case_button_width">250dp</dimen>
+    <dimen name="titles_size">25sp</dimen>
+    <dimen name="space_bt_titles">100dp</dimen>
+    <dimen name="note_btHight">65dp</dimen>
+    <dimen name="popup_width">450dp</dimen>
+</resources>
